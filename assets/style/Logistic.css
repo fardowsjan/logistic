@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.border-test {
+  border: 2px solid gold;
+}
+
+.border-test2 {
+  border: 2px solid green;
+}
+
+.border-test3 {
+  border: 2px solid red;
+}
+
+.border-test4 {
+  border: 2px solid purple;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  display: inline-block;
+}
+
+@font-face {
+  font-family: Exo;
+  src: url(../Font/Exo-VariableFont_wght.ttf);
+}
+main {
+  animation: bg ease-in-out infinite alternate-reverse 10s;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  z-index: 1;
+}
+main > .bg-img {
+  background-image: url(../Img/download.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main > .bg-img::after {
+  content: "";
+  display: block;
+  background-image: linear-gradient(black -31%, transparent 22%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+main > .bg-img > .header_top > .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main > .bg-img > .header_top > .top > figure > img {
+  width: 100%;
+  height: 100%;
+}
+main > .bg-img > .header_top > .top > .contact > div > span {
+  color: #FFF;
+  transition: 0.4s;
+}
+main > .bg-img > .header_top > .top > .contact > div > p {
+  color: rgba(218, 218, 218, 0.7960784314);
+  font-family: Exo;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+main > .bg-img > .header_top > .top > .contact > div > p > a {
+  color: #FFF;
+  font-family: Exo;
+}
+main > .bg-img > .header_top > .top > .contact > div:hover > span {
+  color: #FE8802;
+  transform: scale(1.3);
+}
+main > .bg-img > .header_top > nav {
+  background-color: #FFF;
+}
+main > .bg-img > .header_top > nav > ul > li {
+  border-right: 2px solid rgba(128, 128, 128, 0.39);
+}
+main > .bg-img > .header_top > nav > ul > li > a {
+  color: #5B5B5B;
+  font-family: Exo;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+main > .bg-img > .header_top > nav > ul > li:nth-of-type(1) > a {
+  color: #FE8802;
+  font-size: 1.3vw;
+}
+main > .bg-img > .header_top > nav > .icons > ul {
+  border-right: 1px solid rgba(128, 128, 128, 0.331);
+  border-left: 1px solid rgba(128, 128, 128, 0.331);
+}
+main > .bg-img > .header_top > nav > .icons > ul > li > span {
+  transition: 0.4s;
+}
+main > .bg-img > .header_top > nav > .icons > ul > li > span > a {
+  color: #5B5B5B;
+}
+main > .bg-img > .header_top > nav > .icons > ul > li:nth-of-type(1) > span:hover {
+  transform: rotateY(360deg);
+}
+main > .bg-img > .header_top > nav > .icons > ul > li:nth-of-type(1) > span:hover > a {
+  color: #0693e3;
+}
+main > .bg-img > .header_top > nav > .icons > ul > li:nth-of-type(2) > span:hover {
+  transform: rotateY(360deg);
+}
+main > .bg-img > .header_top > nav > .icons > ul > li:nth-of-type(2) > span:hover > a {
+  color: #000000;
+}
+main > .bg-img > .header_top > nav > .icons > ul > li:nth-of-type(3) > span:hover {
+  transform: rotateY(360deg);
+}
+main > .bg-img > .header_top > nav > .icons > ul > li:nth-of-type(3) > span:hover > a {
+  color: #0693e3;
+}
+main > .bg-img > .header_top > nav > .icons > ul > li:nth-of-type(4) > span:hover {
+  transform: rotateY(360deg);
+}
+main > .bg-img > .header_top > nav > .icons > ul > li:nth-of-type(4) > span:hover > a {
+  background-image: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+main > .bg-img > .header_top > nav > .icons > a {
+  border-right: 1px solid rgba(128, 128, 128, 0.475);
+  color: #000;
+  font-style: bold;
+}
+main > .bg-img > .avoid-extra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main > .bg-img > .avoid-extra > h1 {
+  color: #FE8802;
+  background-color: #FFF;
+  font-family: Exo;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+main > .bg-img > .avoid-extra > p {
+  color: #000;
+  font-family: Exo;
+  text-transform: capitalize;
+  font-weight: 300;
+  background-color: #FFF;
+}
+
+@keyframes bg {
+  0% {
+    background-image: url(../Img/slider.jpg);
+  }
+  50% {
+    background-image: url(../Img/slider.jpg);
+  }
+  51% {
+    background-image: url(../Img/slider3.jpg);
+  }
+  100% {
+    background-image: url(../Img/slider3.jpg);
+  }
+}/*# sourceMappingURL=Logistic.css.map */

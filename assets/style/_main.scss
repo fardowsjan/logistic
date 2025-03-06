@@ -1,0 +1,189 @@
+main{
+    // @extend.border-test;
+    // background-image: url(../Img/slider3.jpg);
+    animation: bg ease-in-out infinite alternate-reverse 10s;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    z-index: 1;
+    >.bg-img{
+        background-image: url(../Img/download.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &::after{
+            content: '';
+            display: block;
+            background-image:linear-gradient(black -31%, transparent 22%);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;left: 0;
+            z-index: -1;
+        }
+        >.header_top{
+            // @extend.border-test2;
+            >.top{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                // @extend.border-test;
+                >figure{
+                    >img{
+                        @include width;
+                    }
+                }
+                // ________ END OF FIGURE __________
+                >.contact{
+                    // @extend.border-test3;
+                    >div{
+                        // @extend.border-test2;
+                        >span{
+                            color: $First-text-color;
+                            transition: .4s;
+                        }
+                        // ________ END OF SPAN ___________-
+                        >p{
+                            color: $Eigth-text-color;
+                            font-family:Exo ;
+                            cursor: pointer;
+                            user-select: none;
+                            >a{
+                                color: $First-text-color;
+                                font-family:Exo ;
+                            }
+                        }
+                        // _________- END OF P -____________
+                        &:hover>span{
+                            color: $Thirth-text-color;
+                            transform: scale(1.3)
+                        }
+                    }
+                    // _________ END OF DIV ___________
+                }
+                // __________ END OF .CONTACT __________
+            }
+            // ________ END OF .TOP -_________
+            >nav{
+                background-color: $First-background-color;
+                // overflow: hidden;
+                >ul{
+                    // @extend.border-test2;
+                    >li{
+                        border-right: 2px solid rgba(128, 128, 128, 0.39);
+                        >a{
+                            color: $scoundry-text-color;
+                            font-family:Exo ;
+                            font-weight: 700;
+                            text-transform: capitalize;
+                        }
+                        // _________ END OF A __________-
+                        &:nth-of-type(1){
+                            >a{
+                                color: $Thirth-text-color;
+                                font-size: 1.3vw;
+                            }
+                        }
+                    }
+                    // __________ END F LI ___________
+                }
+                // __________ END OF UL ___________
+                >.icons{
+                    // border: 2px solid black;
+                    >ul{
+                        border-right: 1px solid rgba(128, 128, 128, 0.331);
+                        border-left: 1px solid rgba(128, 128, 128, 0.331);
+                        >li{
+                            >span{
+                                transition: .4s;
+                                >a{
+                                    color: $scoundry-text-color;
+                                }
+                            }
+                            &:nth-of-type(1){
+                                >span{
+                                    &:hover{
+                                        transform: rotateY(360deg);
+                                    }
+                                    &:hover>a{
+                                        color: #0693e3;
+                                    }
+                                }
+                            }
+                            &:nth-of-type(2){
+                                >span{
+                                    &:hover{
+                                        transform: rotateY(360deg);
+                                    }
+                                    &:hover>a{
+                                        color: #000000;
+                                    }
+                                }
+                            }
+                            &:nth-of-type(3){
+                                >span{
+                                    &:hover{
+                                        transform: rotateY(360deg);
+                                    }
+                                    &:hover>a{
+                                        color: #0693e3;
+                                    }
+                                }
+                            }
+                            &:nth-of-type(4){
+                                >span{
+                                    &:hover{
+                                        transform: rotateY(360deg);
+                                    }
+                                    &:hover>a{
+                                        background-image: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+                                        background-clip: text;
+                                        color: transparent;
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                    // ___________ END OF UL -____________
+                    >a{
+                        border-right: 1px solid rgba(128, 128, 128, 0.475);
+                        color: #000;
+                        font-style: bold;
+                    }
+                }
+                // ___________ END OF .ICONS ____________
+            }
+            // __________ END OF NAV ____________
+        }
+        // _________ END OF .HEADER_TOP _________//
+        >.avoid-extra{
+            // @extend.border-test3;
+            @include flex;
+            flex-direction: column;
+            >h1{
+                color: $Thirth-text-color;
+                background-color: $First-background-color;
+                font-family:Exo ;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+            >p{
+                color: #000;
+                font-family:Exo ;
+                text-transform: capitalize;
+                font-weight: 300;
+                background-color: $First-background-color;
+            }
+        }
+    }
+    // _________- END OF .BG-IMG -__________
+}
+// _____________ END OF MAIN -____________
+@keyframes bg {
+    0%{background-image: url(../Img/slider.jpg);}
+    50%{background-image: url(../Img/slider.jpg);}
+    51%{background-image: url(../Img/slider3.jpg);}
+    100%{background-image: url(../Img/slider3.jpg);}
+}

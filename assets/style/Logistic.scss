@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$First-text-color:#FFF;
+$scoundry-text-color:#5B5B5B;
+$Thirth-text-color:#FE8802;
+$Fourth-text-color:#000000;
+$Fifth-text-color:#666666;
+$Sixth-text-color:#FFFFFF;
+$Sevnth-text-color:#AAAAAA; 
+$Eigth-text-color:#dadadacb;
+// __________________________ END OF ALL TEXT COLOR __________________________//
+// ________________________ START OF BACKGROUND COLOR ________________________//
+$First-background-color:#FFF;
+$Secoundry-background-color:#FE88021F;
+$Thirth-background-color:#212121;
+$Fourth-background-color:#fe8802;
+$Six-background-color:#1c1c1c;
+// ________________________ END OF ALL BACKGROUND COLOR ________________________//
+.border-test{
+    border: 2px solid gold;
+}
+.border-test2{
+    border: 2px solid green;
+}
+.border-test3{
+    border: 2px solid red;
+}
+.border-test4{
+    border: 2px solid purple;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+span{
+    display: inline-block;
+}
+
+@mixin flex{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+@mixin width{
+    width: 100%;
+    height: 100%;
+}
+
+
+@font-face {
+    font-family:Exo ;
+    src: url(../Font/Exo-VariableFont_wght.ttf);
+}
+
+
+
+@import'main';

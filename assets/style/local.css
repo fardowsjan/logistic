@@ -216,6 +216,10 @@
                 }
                 .top>ul.active{
                     right: 0;
+                    transition: .8s;
+                }
+                .top>ul>#close{
+                    transition: 1s;
                 }
                 /* ___________ END OF .TOP ___________ */
                 >nav{
@@ -389,6 +393,51 @@
         /* ________ END OF .BG-IMG ____________ */
     }
     /* _________ END OF MAIN __________ */
+    /* __________- START OF .FAST-SECURE ___________ */
+    .fast-secure{
+        width: 100%;
+        /* height: 35vh; */
+        display: flex;
+        justify-content: center;
+        position: relative;
+        >.offer-logistic{
+            width: 90%;
+            height: 100%;
+            
+            >.left{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 50px;
+                >figure{
+                    width: 15%;
+                    >img{
+                        width: 100%;
+                    }
+                }
+                >div{
+                    margin-left: 20px;
+                    >h2{
+                        font-size: 3.7vw;
+                    }
+                    >p{
+                        font-size: 2.4vw;
+                        text-align: center;
+                    }
+                }
+            }
+            >.right{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 50px;
+            }
+        }
+    }
+    /* ___________ END OF .FAST-SECURE _____________ */
 }
 @media screen and (min-width:768px) {
     /* Tapleat */
@@ -635,6 +684,51 @@
         /* ________ END OF .BG-IMG ____________ */
     }
     /* _________ END OF MAIN __________ */
+    /* __________- START OF .FAST-SECURE ___________ */
+    .fast-secure{
+        width: 100%;
+        /* height: 35vh; */
+        display: flex;
+        justify-content: center;
+        position: relative;
+        >.offer-logistic{
+            width: 90%;
+            height: 100%;
+            padding-top: 40px;
+            /* display: flex; */
+            /* justify-content: space-between; */
+            /* align-items: center; */
+            >.left{
+                width: 100%;
+                padding-top: 20px;
+                display: flex;
+                /* justify-content: center; */
+                align-items: center;
+                >figure{
+                    width: 10%;
+                    >img{
+                        width: 100%;
+                    }
+                }
+                >div{
+                    margin-left: 20px;
+                    >h2{
+                        font-size: 35px;
+                    }
+                    >p{
+                        font-size: 20px;
+                    }
+                }
+            }
+            >.right{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 80px;
+            }
+        }
+    }
+    /* ___________ END OF .FAST-SECURE _____________ */
 }
 @media screen and (min-width:992px) {
     /* Laptop */
@@ -642,6 +736,9 @@
     main{
         width: 100%;
         height: 120vh;
+        position: relative;
+        /* overflow: visible; */
+        /* z-index: -4; */
         >.bg-img{
             width: 100%;
             height: 100%;
@@ -878,6 +975,59 @@
         /* ________ END OF .BG-IMG ____________ */
     }
     /* _________ END OF MAIN __________ */
+    /* __________- START OF .FAST-SECURE ___________ */
+    .fast-secure{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        /* overflow-Y: hidden; */
+        z-index: 1;
+        >.offer-logistic{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            >.left{
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                >figure{
+                    width: 15%;
+                    >img{
+                        width: 100%;
+                    }
+                }
+                >div{
+                    margin-left: 20px;
+                    >h2{
+                        font-size: 2vw;
+                    }
+                    >p{
+                        font-size: 1.4vw;
+                    }
+                }
+            }
+            >.right{
+                >img{
+                    position: absolute;
+                    top: -100px;right: 0;
+                    z-index: 100px;
+                    width: 400px;
+                }
+            }
+        }
+    }
+    /* ___________ END OF .FAST-SECURE _____________ */
+    /* ـ____________ START OF .Transportation Services ____________ */
+    .Transportation-Services{
+        width: 100%;
+        height: 80vh;
+    }
+    /* ____________ END OF .Transportation Services ____________ */
 }
 @media screen and (min-width:1200px) {
     /* Desktop */

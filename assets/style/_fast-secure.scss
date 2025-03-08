@@ -1,0 +1,27 @@
+.fast-secure{
+    // @extend.border-test2;
+    background-color: $Secoundry-background-color;
+    >.offer-logistic{
+        // @extend.border-test3;
+        >.left{
+            >div{
+                >h2{
+                    font-family:Exo ;
+                    font-weight: 300;
+                    color: #000;
+                    >a{
+                        font-family:Exo ;
+                        font-weight: 700;
+                        text-transform: capitalize;
+                        color: #000;
+                    }
+                }
+                >p{
+                    color: $scoundry-text-color;
+                    font-family:Exo ;
+                }
+            }
+
+        }
+    }
+}

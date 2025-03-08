@@ -1,5 +1,6 @@
 const toggle=document.getElementById('toggle')
-const top=document.querySelector('.top>.horizintal')
+const menu=document.querySelector('.top>ul')
 toggle.addEventListener('click' , ()=>{
-    top.classlist.add('active')
+    menu.classList.add('active')
 })
+

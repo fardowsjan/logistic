@@ -182,4 +182,22 @@ main > .bg-img > .avoid-extra > p {
   100% {
     background-image: url(../Img/slider3.jpg);
   }
+}
+.fast-secure {
+  background-color: rgba(254, 136, 2, 0.1215686275);
+}
+.fast-secure > .offer-logistic > .left > div > h2 {
+  font-family: Exo;
+  font-weight: 300;
+  color: #000;
+}
+.fast-secure > .offer-logistic > .left > div > h2 > a {
+  font-family: Exo;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #000;
+}
+.fast-secure > .offer-logistic > .left > div > p {
+  color: #5B5B5B;
+  font-family: Exo;
 }/*# sourceMappingURL=Logistic.css.map */

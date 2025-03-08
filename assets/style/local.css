@@ -438,6 +438,55 @@
         }
     }
     /* ___________ END OF .FAST-SECURE _____________ */
+    /* __________ START OF .Transportation Services _________- */
+    #Transportation-Services{
+        width: 100%;
+        /* height: 65vh; */
+        padding-top: 50px;
+        padding-bottom: 50px;
+        >.our-services{
+            width: 100%;
+            height: 60%;
+            display: flex ;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            >h2{
+                color: #000;
+                font-size: 25px;
+                text-transform: capitalize;
+                font-weight: 600;
+                position: relative;
+                user-select: none;
+                >a{
+                    color: #FE8802;
+                    user-select: none;
+                }
+                &::after{
+                    content: '';
+                    display: none;
+                    width: 70px;
+                    border: 2px solid #FE8802;
+                    position: absolute;
+                    top: 20px;left: -90px;
+                }
+                &::before{
+                    content: '';
+                    display: none;
+                    width: 70px;
+                    border: 2px solid #FE8802;
+                    position: absolute;
+                    top: 20px;right: -90px;
+                }
+            }
+            >p{
+                color: #666666;
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        }
+    }
+    /* ___________ END OF .Transportation Services _____________ */
 }
 @media screen and (min-width:768px) {
     /* Tapleat */
@@ -729,6 +778,54 @@
         }
     }
     /* ___________ END OF .FAST-SECURE _____________ */
+    /* __________ START OF .Transportation Services _________ */
+    #Transportation-Services{
+        width: 100%;
+        /* height: 65vh; */
+        padding-top: 100px;
+        padding-bottom: 80px;
+        >.our-services{
+            width: 100%;
+            height: 60%;
+            display: flex ;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            >h2{
+                color: #000;
+                font-size: 4vw;
+                text-transform: capitalize;
+                font-weight: 600;
+                position: relative;
+                user-select: none;
+                >a{
+                    color: #FE8802;
+                    user-select: none;
+                }
+                &::after{
+                    content: '';
+                    display: block;
+                    width: 70px;
+                    border: 2px solid #FE8802;
+                    position: absolute;
+                    top: 20px;left: -90px;
+                }
+                &::before{
+                    content: '';
+                    display: block;
+                    width: 70px;
+                    border: 2px solid #FE8802;
+                    position: absolute;
+                    top: 20px;right: -90px;
+                }
+            }
+            >p{
+                color: #666666;
+                font-size: 2vw;
+            }
+        }
+    }
+    /* -__________ END OF .Transportation Services __________- */
 }
 @media screen and (min-width:992px) {
     /* Laptop */
@@ -1023,9 +1120,51 @@
     }
     /* ___________ END OF .FAST-SECURE _____________ */
     /* ـ____________ START OF .Transportation Services ____________ */
-    .Transportation-Services{
+    #Transportation-Services{
         width: 100%;
-        height: 80vh;
+        /* height: 65vh; */
+        padding-top: 100px;
+        padding-bottom: 80px;
+        >.our-services{
+            width: 100%;
+            height: 60%;
+            display: flex ;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            >h2{
+                color: #000;
+                font-size: 2.5vw;
+                text-transform: capitalize;
+                font-weight: 600;
+                position: relative;
+                user-select: none;
+                >a{
+                    color: #FE8802;
+                    user-select: none;
+                }
+                &::after{
+                    content: '';
+                    display: block;
+                    width: 70px;
+                    border: 2px solid #FE8802;
+                    position: absolute;
+                    top: 20px;left: -90px;
+                }
+                &::before{
+                    content: '';
+                    display: block;
+                    width: 70px;
+                    border: 2px solid #FE8802;
+                    position: absolute;
+                    top: 20px;right: -90px;
+                }
+            }
+            >p{
+                color: #666666;
+                font-size: 1.2vw;
+            }
+        }
     }
     /* ____________ END OF .Transportation Services ____________ */
 }

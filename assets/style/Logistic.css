@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 
-.border-test {
+.border-test, .Transportation-Services {
   border: 2px solid gold;
 }
 
-.border-test2 {
+.border-test2, .Transportation-Services > .our-services {
   border: 2px solid green;
 }
 
@@ -36,6 +36,10 @@ span {
   font-family: Exo;
   src: url(../Font/Exo-VariableFont_wght.ttf);
 }
+h1, h2, h3, h4, h5, h6, p {
+  font-family: Exo;
+}
+
 main {
   animation: bg ease-in-out infinite alternate-reverse 10s;
   background-size: cover;
@@ -200,4 +204,8 @@ main > .bg-img > .avoid-extra > p {
 .fast-secure > .offer-logistic > .left > div > p {
   color: #5B5B5B;
   font-family: Exo;
+}
+
+.Transportation-Services > .our-services {
+  border: 2px solid gold;
 }/*# sourceMappingURL=Logistic.css.map */

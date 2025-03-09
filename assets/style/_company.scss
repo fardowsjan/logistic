@@ -1,0 +1,26 @@
+#our-company{
+    // @extend.border-test;
+    background-color: $Thirth-background-color;
+    >.about-img{
+        >figure{
+            >figcaption{
+                background-color: $First-background-color;
+                >h3{
+                    color: #000;
+                    >span{
+                        color: $Thirth-text-color;
+                    }
+                }
+                >P{
+                    color: $Fifth-text-color;
+                    text-align: center;
+                    line-height: 30px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    >.information{
+        @extend.border-test3;
+    }
+}

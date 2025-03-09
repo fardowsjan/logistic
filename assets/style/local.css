@@ -487,6 +487,67 @@
         }
     }
     /* ___________ END OF .Transportation Services _____________ */
+    /* __________ START OF #OUR-COMAPNY ___________ */
+    #our-company{
+        width: 100%;
+        /* height: 100vh; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+        margin-top: 200px;
+        >.about-img{
+            width: 100%;
+            /* display: flex; */
+            /* justify-content: space-evenly; */
+            transform: translateY(-200px);
+            >figure{
+                width: 100%;
+                transform-style: preserve-3d;
+                transition: .4s;
+                margin-block: 40px;
+                >img{
+                    width: 100%;
+                }
+                >figcaption{
+                    clip-path: polygon(0 10%,45% 10%,51% 0,57% 10%,100% 10%,100% 100%,0 100%);
+                    height: 200px;
+                    margin-top: -25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 0px 30px;
+                    h3{
+                        /* padding-top: 30px; */
+                        font-size: 30px;
+                    }
+                    >p{
+                        font-size:16px;
+                    }
+                }
+                &:nth-of-type(2){
+                    transform: translateZ(-1000px);
+                }
+                &:hover{
+                    transform: translateY(-40px);
+                }
+            }
+        }
+        >.information{
+            width: 100%;
+            height: 1vh;
+            transform: translateY(-200px);
+            padding: 0px 80px;
+            >p{
+                color: #fcfcfc;
+                text-align: center;
+                font-size: 14px;
+                line-height: 40px;
+            }
+        }
+    }
+    /* ____________ END OF #OUR-COMPANY ____________ */
 }
 @media screen and (min-width:768px) {
     /* Tapleat */
@@ -826,6 +887,67 @@
         }
     }
     /* -__________ END OF .Transportation Services __________- */
+    /* ــ_______ START OF #OUR-COMPANY ________ */
+    #our-company{
+        width: 100%;
+        /* height: 100vh; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+        margin-top: 200px;
+        >.about-img{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            transform: translateY(-200px);
+            >figure{
+                width: 250px;
+                transform-style: preserve-3d;
+                transition: .4s;
+                >img{
+                    width: 100%;
+                }
+                >figcaption{
+                    clip-path: polygon(0 5%,45% 5%,51% 0,57% 5%,100% 5%,100% 100%,0 100%);
+                    height: 400px;
+                    margin-top: -25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 40px;
+                    h3{
+                        /* padding-top: 30px; */
+                        font-size: 4vw;
+                    }
+                    >p{
+                        font-size: 2vw;
+                        line-height:40px;
+                    }
+                }
+                &:nth-of-type(2){
+                    transform: translateZ(-1000px);
+                }
+                &:hover{
+                    transform: translateY(-40px);
+                }
+            }
+        }
+        >.information{
+            width: 100%;
+            height: 20vh;
+            transform: translateY(-80px);
+            padding: 0px 200px;
+            >p{
+                color: #fcfcfc;
+                text-align: center;
+                font-size: 1.8vw;
+                line-height: 40px;
+            }
+        }
+    }
+    /* -______________ END OF #OUR-COMPANY ___________ */
 }
 @media screen and (min-width:992px) {
     /* Laptop */
@@ -1122,9 +1244,9 @@
     /* ـ____________ START OF .Transportation Services ____________ */
     #Transportation-Services{
         width: 100%;
-        /* height: 65vh; */
-        padding-top: 100px;
-        padding-bottom: 80px;
+        height: 70vh;
+        /* padding-top: 100px; */
+        /* padding-bottom: 40px; */
         >.our-services{
             width: 100%;
             height: 60%;
@@ -1167,6 +1289,65 @@
         }
     }
     /* ____________ END OF .Transportation Services ____________ */
+    /* ________ SART OF #OUR-COMPANY ____________ */
+    #our-company{
+        width: 100%;
+        /* height: 100vh; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+        >.about-img{
+            width: 90%;
+            display: flex;
+            justify-content: space-evenly;
+            transform: translateY(-200px);
+            >figure{
+                width: 400px;
+                transform-style: preserve-3d;
+                transition: .4s;
+                >img{
+                    width: 100%;
+                }
+                >figcaption{
+                    clip-path: polygon(0 10%,45% 10%,51% 0,57% 10%,100% 10%,100% 100%,0 100%);
+                    height: 200px;
+                    margin-top: -25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 40px;
+                    h3{
+                        /* padding-top: 30px; */
+                        font-size: 1.8vw;
+                    }
+                    >p{
+                        font-size: 1.2vw;
+                    }
+                }
+                &:nth-of-type(2){
+                    transform: translateZ(-1000px);
+                }
+                &:hover{
+                    transform: translateY(-40px);
+                }
+            }
+        }
+        >.information{
+            width: 100%;
+            height: 40vh;
+            transform: translateY(-80px);
+            padding: 100px 200px;
+            >p{
+                color: #fcfcfc;
+                text-align: center;
+                font-size: 1.8vw;
+                line-height: 40px;
+            }
+        }
+    }
+    /* _________ END OF #OUR-COMPANY ____________ */
 }
 @media screen and (min-width:1200px) {
     /* Desktop */

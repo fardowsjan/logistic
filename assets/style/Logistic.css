@@ -208,4 +208,23 @@ main > .bg-img > .avoid-extra > p {
 
 .Transportation-Services > .our-services {
   border: 2px solid gold;
+}
+
+#our-company {
+  background-color: #212121;
+}
+#our-company > .about-img > figure > figcaption {
+  background-color: #FFF;
+}
+#our-company > .about-img > figure > figcaption > h3 {
+  color: #000;
+}
+#our-company > .about-img > figure > figcaption > h3 > span {
+  color: #FE8802;
+}
+#our-company > .about-img > figure > figcaption > P {
+  color: #666666;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 10px;
 }/*# sourceMappingURL=Logistic.css.map */

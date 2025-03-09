@@ -59,7 +59,7 @@ align-items: center;
 }
 
 
-h1,h2,h3,h4,h5,h6,p{
+h1,h2,h3,h4,h5,h6,p,span{
     font-family:Exo ;
 }
 
@@ -68,3 +68,4 @@ h1,h2,h3,h4,h5,h6,p{
 @import'fast-secure';
 @import'Transportation';
 @import'company';
+@import'sends';

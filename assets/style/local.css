@@ -55,6 +55,11 @@
                             width: 100%;
                             padding-block: 14px;
                             transition: .4s;
+                            >i{
+                                color: #FE8802;
+                                margin-left: 20px;
+                                font-size: 20px;
+                            }
                             >a{
                                 display: inline-block;  
                                 color: #FFF;
@@ -218,8 +223,8 @@
                     right: 0;
                     transition: .8s;
                 }
-                .top>ul>#close{
-                    transition: 1s;
+                .top>ul>#close>i{
+                    transition: 3s;
                 }
                 /* ___________ END OF .TOP ___________ */
                 >nav{
@@ -548,6 +553,67 @@
         }
     }
     /* ____________ END OF #OUR-COMPANY ____________ */
+    /* ـ________ START OF #SENDS-TO-WORLD ___________ */
+    #sends-to-world{
+        width: 100%;
+        /* height: 200px; */
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        >.export-import{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            >figure{
+                width: 60px;
+                height: 60px;
+                opacity: .3;
+                transition: .5s;
+                margin-inline: 40px;
+                margin-block:30px
+                ;
+                >a{
+                    width: 100%;
+                    height: 100%;
+                    >img{
+                        width: 100%;
+                        height: 100%;
+                        transition: .4s;
+                    }
+                }
+                /* _________ END OF A -__________ */
+                >figcaption{
+                    width: 80px;
+                    /* text-align: center; */
+                    >span{
+                        font-size: 9px;
+                        text-transform: capitalize;
+                        font-weight: 600;
+                        margin-top: 20px;
+                        transition-delay: 1s;
+                        transition-duration:.5s ;
+                    }
+                }
+                /* __________ END OF FIGCAPTION ___________ */
+                &:hover>a>img{
+                    transform: rotateY(360deg);
+                }
+                &:hover{
+                    opacity: 1;
+                    transform: scale(1.1);
+                }
+                &:hover>figcaption>span{
+                    color: #FE8802;
+                }
+            }
+            /* _______ END OF FIGURE ____________ */
+        }
+        /* ـ________ END OF .IMPORT-EXPORT ____________ */
+    }
+    /* _____________ END OF #SENDS-TO-WORLD ____________ */
 }
 @media screen and (min-width:768px) {
     /* Tapleat */
@@ -948,6 +1014,67 @@
         }
     }
     /* -______________ END OF #OUR-COMPANY ___________ */
+    /* _____________ START OF #SENDS-TO-WORLD ___________ */
+    #sends-to-world{
+        width: 100%;
+        /* height: 200px; */
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        >.export-import{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            >figure{
+                width: 110px;
+                height: 100px;
+                opacity: .3;
+                transition: .5s;
+                margin-inline: 50px;
+                margin-block: 40px
+                ;
+                >a{
+                    width: 100%;
+                    height: 100%;
+                    >img{
+                        width: 100%;
+                        height: 100%;
+                        transition: .4s;
+                    }
+                }
+                /* _________ END OF A -__________ */
+                >figcaption{
+                    width: 130px;
+                    /* text-align: center; */
+                    >span{
+                        font-size: 15px;
+                        text-transform: capitalize;
+                        font-weight: 700;
+                        margin-top: 20px;
+                        transition-delay: 1s;
+                        transition-duration:.5s ;
+                    }
+                }
+                /* __________ END OF FIGCAPTION ___________ */
+                &:hover>a>img{
+                    transform: rotateY(360deg);
+                }
+                &:hover{
+                    opacity: 1;
+                    transform: scale(1.1);
+                }
+                &:hover>figcaption>span{
+                    color: #FE8802;
+                }
+            }
+            /* _______ END OF FIGURE ____________ */
+        }
+        /* ـ________ END OF .IMPORT-EXPORT ____________ */
+    }
+    /* ___________ END OF #SENDS-TO-WORLD ____________ */
 }
 @media screen and (min-width:992px) {
     /* Laptop */
@@ -1348,6 +1475,63 @@
         }
     }
     /* _________ END OF #OUR-COMPANY ____________ */
+    /* ___________ START OF #SENDS-TO-WORLD _____________ */
+    #sends-to-world{
+        width: 100%;
+        /* height: 200px; */
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        >.export-import{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            >figure{
+                width: 90px;
+                height: 90px;
+                opacity: .3;
+                transition: .5s;
+                >a{
+                    width: 100%;
+                    height: 100%;
+                    >img{
+                        width: 100%;
+                        height: 100%;
+                        transition: .4s;
+                    }
+                }
+                /* _________ END OF A -__________ */
+                >figcaption{
+                    width: 130px;
+                    /* text-align: center; */
+                    >span{
+                        font-size: 15px;
+                        text-transform: capitalize;
+                        font-weight: 700;
+                        margin-top: 20px;
+                        transition-delay: 1s;
+                        transition-duration:.5s ;
+                    }
+                }
+                /* __________ END OF FIGCAPTION ___________ */
+                &:hover>a>img{
+                    transform: rotateY(360deg);
+                }
+                &:hover{
+                    opacity: 1;
+                    transform: scale(1.1);
+                }
+                &:hover>figcaption>span{
+                    color: #FE8802;
+                }
+            }
+            /* _______ END OF FIGURE ____________ */
+        }
+        /* ـ________ END OF .IMPORT-EXPORT ____________ */
+    }
+    /* ___________ END OF #SENDS-TO-WORLD _____________ */
 }
 @media screen and (min-width:1200px) {
     /* Desktop */

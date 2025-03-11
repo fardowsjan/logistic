@@ -36,7 +36,7 @@ span {
   font-family: Exo;
   src: url(../Font/Exo-VariableFont_wght.ttf);
 }
-h1, h2, h3, h4, h5, h6, p, span {
+h1, h2, h3, h4, h5, h6, p, span, button {
   font-family: Exo;
 }
 
@@ -231,4 +231,22 @@ main > .bg-img > .avoid-extra > p {
 
 #sends-to-world {
   border: 1px solid rgba(128, 128, 128, 0.297);
+}
+#fair-quote > .request-fair > h3 {
+  color: black;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+#fair-quote > .request-fair > h3 > span {
+  color: #FE8802;
+}
+#fair-quote > .request-fair > .core-values > p {
+  color: #666666;
+}
+#fair-quote > .request-fair > .about-us > .chacked > span {
+  color: #000;
+  font-weight: 500;
+}
+#fair-quote > .ragistartion {
+  background-color: #212121;
 }/*# sourceMappingURL=Logistic.css.map */

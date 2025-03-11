@@ -1,0 +1,33 @@
+#fair-quote{
+    // @extend.border-test;
+    >.request-fair{
+        // @extend.border-test2;
+        >h3{
+            color: black;
+            text-transform: capitalize;
+            font-weight: 700;
+            >span{
+                color: $Thirth-text-color;
+            }
+        }
+        >.core-values{
+            // @extend.border-test3;
+            >p{
+                color: $Fifth-text-color;
+            }
+        }
+        >.about-us{
+            // @extend.border-test2;
+            >.chacked{
+                >span{
+                    color: #000;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    >.ragistartion{
+        // @extend.border-test3;
+        background-color: $Thirth-background-color;
+    }
+}

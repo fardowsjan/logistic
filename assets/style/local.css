@@ -614,6 +614,228 @@
         /* ـ________ END OF .IMPORT-EXPORT ____________ */
     }
     /* _____________ END OF #SENDS-TO-WORLD ____________ */
+    /* ___________ START OF #FAIR-QUOTE ____________- */
+    #fair-quote{
+        width: 100%;
+        height: 100vh;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 450px;
+        >.request-fair{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            >h3{
+                font-size: 4vw;
+                margin-left: 100px;
+                padding-top: 50px;
+                &::after{
+                    content: '';
+                    display: block;
+                    width: 60px;
+                    border: 2px solid #FE8802;
+                    position: absolute;
+                    top: 75px;left: 20px;
+                }
+            }
+            /* ______ END OF H3 -________ */
+            >p{
+                color: #666666;
+                margin-left: 100px;
+                margin-top: 5px;
+            }
+            /* ___________ END OF P _________ */
+            >.core-values{
+                padding: 0px 40px;
+                margin-top: 40px;
+                >p{
+                    font-size: 19px;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    line-height: 2;
+                }
+            }
+            /* ________ END OF .CORE-VALUES __________ */
+            >.about-us{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 50px;
+                height: 300px;
+                >.chacked{
+                    width: 90%;
+                    justify-content: center;
+                    >span{
+                        display: inline-block;
+                        width: 100%;
+                        height: 50px;
+                        /* line-height: 50px; */
+                        font-size: 2.3vw;
+                        /* margin-inline: 20px; */
+                        /* margin-block: 10px; */
+                        position: relative;
+                        &::after{
+                            content: '✓';
+                            display: block;
+                            width: 20px;
+                            height: 20px;
+                            text-align: center;
+                            /* line-height: 20px; */
+                            /* font-size: ; */
+                            background-color: #FE8802;
+                            color: #FFF;
+                            position: absolute;
+                            top: 0;left: -30px;
+                            transition: .3s;
+                            border-radius: 5px;
+                        }
+                        &:hover::after{
+                            background-color: #000;
+                            animation: chacked alternate linear 1s;
+                        }
+                    }
+                    /* ________ END OF SPAN _________ */
+                }
+                /* ________- END OF .CHECKED ___________ */
+            }
+            /* ________ ENN OF .ABOUT-US ____________ */
+        }
+        /* _________ END OF .REQUEST-FAIR ___________ */
+        >.ragistartion{
+            width: 90%;
+            height: 100%;
+            margin-top: 300px;
+            border-radius: 5px;
+            >.name-email{
+                width: 100%;
+                height: 100%;
+                /* padding: 20px 30px; */
+                >.top{
+                    width: 100%;
+                    height: 12%;
+                    padding: 0px 30px;
+                    display: flex;
+                    margin-top: 30px;
+                    >.left{
+                        width: 45%;
+                        >label{
+                            width: 100%;
+                            color: rgba(255,255,255,.6);
+                            font-family: Exo;
+                        }
+                        >input{
+                            width: 100%;
+                            height: 40px;
+                            margin-top: 5px;
+                            border-radius: 5px;
+                            outline: none;
+                            border: none;
+                            text-transform: capitalize;
+                            padding-left: 20px;
+                            font-family: Exo;
+                        }
+                    }
+                    /* ______________ ENDOF .LEFT _________ */
+                    >.right{
+                        width: 45%;
+                        >label{
+                            width: 100%;
+                            margin-left: 20px;
+                            font-family: Exo;
+                            /* font-weight: 560; */
+                            color: rgba(255,255,255,.6);
+                        }
+                        >input{
+                            width: 100%;
+                            margin-left: 20px;
+                            height: 40px;
+                            margin-top: 5px;
+                            border-radius: 5px;
+                            outline: none;
+                            border: none;
+                            text-transform: capitalize;
+                            padding-left: 20px;
+                            font-family: Exo;
+                        }
+                    }
+                    /* ____________ END OF .RIGHT __________ */
+                }
+                /* _______________ END OF .TOP _________________ */
+                >.bottom{
+                    width: 100%;
+                    height: 90%;
+                    padding: 30px 30px;
+
+                    >label{
+                        width: 100%;
+                        font-family: Exo;
+                        color: rgba(255,255,255,.6);
+                    }
+                    >input{
+                        width: 100%;
+                        margin-block: 10px;
+                        height: 40px;
+                        border: none;
+                        outline: none;
+                        border-radius: 5px;
+                        padding-left: 10px;
+                        text-transform: capitalize;
+                        text-transform: capitalize;
+
+                    }
+                    >textarea{
+                        width: 100%;
+                        resize: both;
+                        border-radius: 5px;
+                        outline: none;
+                        padding-left: 10px;
+                        text-transform: capitalize;
+                        border: none;
+                        background-image: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+                        font-family:Exo ;
+                        height: 250px;
+                    }
+                    /* ___________ END OF .TEXTAREA _________ */
+                    >button{
+                        color: #FFF;
+                        background-color: #FE8802;
+                        font-weight: 560;
+                        text-transform: capitalize;
+                        padding: 15px 40px;
+                        border: none;
+                        outline: none;
+                        margin-left: 90px;
+                        margin-top: 20px;
+                        border-radius: 5px;
+                        font-size: 16px;
+                        cursor: pointer;
+                        transition: .4s;
+                        &:hover{
+                            background-color: #FFF;
+                            color: #FE8802;
+                        }
+                    }
+                    /* __________ END OF .BOTTOM _______-____ */
+                }
+                /* ________ END OF .BOTTOM __________ */
+            }
+            /* _________ ENN OF .NAME-EMAIL ____________ */
+        }
+        /* ________ END OF .RAGISTARTION __________ */
+    }
+    @keyframes chacked {
+        0%{transform: translateX(-5px);}
+        50%{transform: translateX(5px);}
+        75%{transform: translateX(-5px);}
+        100%{transform: translateX(0px);}
+    }
+    /* ____________ END OF #FAIR-QUOTE _____________ */
 }
 @media screen and (min-width:768px) {
     /* Tapleat */
@@ -1021,6 +1243,7 @@
         display: flex;
         justify-content: center;
         padding-bottom: 50px;
+        overflow: hidden;
         >.export-import{
             width: 90%;
             height: 100%;
@@ -1029,11 +1252,11 @@
             justify-content: space-evenly;
             align-items: center;
             >figure{
-                width: 110px;
-                height: 100px;
+                width: 70px;
+                height: 70px;
                 opacity: .3;
                 transition: .5s;
-                margin-inline: 50px;
+                margin-inline: 80px;
                 margin-block: 40px
                 ;
                 >a{
@@ -1074,7 +1297,229 @@
         }
         /* ـ________ END OF .IMPORT-EXPORT ____________ */
     }
+    /* _________ START OF #FAIR-QUOTE ___________ */
+    #fair-quote{
+        width: 100%;
+        height: 100vh;
+        margin-top: 100px;
+        >.request-fair{
+            width: 100%;
+            /* height: 100%; */
+            position: relative;
+            >h3{
+                font-size: 2.8vw;
+                margin-left: 110px;
+                padding-top: 50px;
+                &::after{
+                    content: '';
+                    display: block;
+                    width: 60px;
+                    border: 2px solid #FE8802;
+                    position: absolute;
+                    top: 75px;left: 30px;
+                }
+            }
+            /* ______ END OF H3 -________ */
+            >p{
+                color: #666666;
+                margin-left: 110px;
+                margin-top: 5px;
+                font-size: 15px;
+            }
+            /* ___________ END OF P _________ */
+            >.core-values{
+                padding: 0px 40px;
+                margin-top: 40px;
+                >p{
+                    font-size: 14px;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    line-height: 2;
+                }
+            }
+            /* ________ END OF .CORE-VALUES __________ */
+            >.about-us{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 300px;
+                >.chacked{
+                    width: 90%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    >span{
+                        display: inline-block;
+                        width: 30%;
+                        height: 50px;
+                        line-height: 50px;
+                        font-size: 1.2vw;
+                        margin-inline: 40px;
+                        margin-block: 10px;
+                        position: relative;
+                        &::after{
+                            content: '✓';
+                            display: block;
+                            width: 50px;
+                            height: 50px;
+                            text-align: center;
+                            line-height: 50px;
+                            font-size: 1.5vw;
+                            background-color: #FE8802;
+                            color: #FFF;
+                            position: absolute;
+                            top: 0;left: -60px;
+                            transition: .3s;
+                            border-radius: 5px;
+                        }
+                        &:hover::after{
+                            background-color: #000;
+                            animation: chacked alternate linear 1s;
+                        }
+                    }
+                    /* ________ END OF SPAN _________ */
+                }
+                /* ________- END OF .CHECKED ___________ */
+            }
+            /* ________ ENN OF .ABOUT-US ____________ */
+        }
+        /* _________ END OF .REQUEST-FAIR ___________ */
+        >.ragistartion{
+            width: 90%;
+            display: flex;
+            /* height: 100%; */
+            border-radius: 5px;
+            margin-left: 40px;
+            >.name-email{
+                width: 100%;
+                height: 100%;
+                /* padding-left: 60px; */
+                /* padding: 20px 30px; */
+                >.top{
+                    width: 100%;
+                    height: 12%;
+                    padding: 0px 30px;
+                    display: flex;
+                    margin-top: 30px;
+                    >.left{
+                        width: 45%;
+                        >label{
+                            width: 100%;
+                            color: rgba(255,255,255,.6);
+                            font-family: Exo;
+                        }
+                        >input{
+                            width: 100%;
+                            height: 40px;
+                            margin-top: 5px;
+                            border-radius: 5px;
+                            outline: none;
+                            border: none;
+                            text-transform: capitalize;
+                            padding-left: 20px;
+                            font-family: Exo;
+                        }
+                    }
+                    /* ______________ ENDOF .LEFT _________ */
+                    >.right{
+                        width: 45%;
+                        >label{
+                            width: 100%;
+                            margin-left: 20px;
+                            font-family: Exo;
+                            /* font-weight: 560; */
+                            color: rgba(255,255,255,.6);
+                        }
+                        >input{
+                            width: 100%;
+                            margin-left: 20px;
+                            height: 40px;
+                            margin-top: 5px;
+                            border-radius: 5px;
+                            outline: none;
+                            border: none;
+                            text-transform: capitalize;
+                            padding-left: 20px;
+                            font-family: Exo;
+                        }
+                    }
+                    /* ____________ END OF .RIGHT __________ */
+                }
+                /* _______________ END OF .TOP _________________ */
+                >.bottom{
+                    width: 100%;
+                    height: 90%;
+                    padding: 30px 30px;
+
+                    >label{
+                        width: 100%;
+                        font-family: Exo;
+                        color: rgba(255,255,255,.6);
+                    }
+                    >input{
+                        width: 100%;
+                        margin-block: 10px;
+                        height: 40px;
+                        border: none;
+                        outline: none;
+                        border-radius: 5px;
+                        padding-left: 10px;
+                        text-transform: capitalize;
+                        text-transform: capitalize;
+
+                    }
+                    >textarea{
+                        width: 100%;
+                        resize: both;
+                        border-radius: 5px;
+                        outline: none;
+                        padding-left: 10px;
+                        text-transform: capitalize;
+                        border: none;
+                        background-image: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+                        font-family:Exo ;
+                        height: 250px;
+                    }
+                    /* ___________ END OF .TEXTAREA _________ */
+                    >button{
+                        color: #FFF;
+                        background-color: #FE8802;
+                        font-weight: 560;
+                        text-transform: capitalize;
+                        padding: 15px 40px;
+                        border: none;
+                        outline: none;
+                        margin-left: 90px;
+                        margin-top: 20px;
+                        border-radius: 5px;
+                        font-size: 16px;
+                        cursor: pointer;
+                        transition: .4s;
+                        &:hover{
+                            background-color: #FFF;
+                            color: #FE8802;
+                        }
+                    }
+                    /* __________ END OF .BOTTOM _______-____ */
+                }
+                /* ________ END OF .BOTTOM __________ */
+            }
+            /* _________ ENN OF .NAME-EMAIL ____________ */
+        }
+        /* ________ END OF .RAGISTARTION __________ */
+    }
     /* ___________ END OF #SENDS-TO-WORLD ____________ */
+    @keyframes chacked {
+        0%{transform: translateX(-5px);}
+        50%{transform: translateX(5px);}
+        75%{transform: translateX(-5px);}
+        100%{transform: translateX(0px);}
+    }
+    /* _________ END OF #FAIR-QUOTE _____________ */
 }
 @media screen and (min-width:992px) {
     /* Laptop */
@@ -1489,10 +1934,11 @@
             justify-content: space-evenly;
             align-items: center;
             >figure{
-                width: 90px;
-                height: 90px;
+                width: 80px;
+                height: 80px;
                 opacity: .3;
                 transition: .5s;
+                margin-inline: 10px;
                 >a{
                     width: 100%;
                     height: 100%;
@@ -1532,6 +1978,224 @@
         /* ـ________ END OF .IMPORT-EXPORT ____________ */
     }
     /* ___________ END OF #SENDS-TO-WORLD _____________ */
+    /* _________- START OF #FAIR-QOUTE ____________ */
+    #fair-quote{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        /* margin-top: 300px; */
+        >.request-fair{
+            width: 65%;
+            /* height: 100%; */
+            position: relative;
+            >h3{
+                font-size: 2.3vw;
+                margin-left: 80px;
+                padding-top: 50px;
+                &::after{
+                    content: '';
+                    display: block;
+                    width: 60px;
+                    border: 2px solid #FE8802;
+                    position: absolute;
+                    top: 75px;left: 10px;
+                }
+            }
+            /* ______ END OF H3 -________ */
+            >p{
+                color: #666666;
+                margin-left: 80px;
+                margin-top: 5px;
+            }
+            /* ___________ END OF P _________ */
+            >.core-values{
+                padding: 0px 40px;
+                margin-top: 40px;
+                >p{
+                    font-size: 19px;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    line-height: 2;
+                }
+            }
+            /* ________ END OF .CORE-VALUES __________ */
+            >.about-us{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 300px;
+                >.chacked{
+                    width: 90%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    >span{
+                        display: inline-block;
+                        width: 35%;
+                        height: 50px;
+                        line-height: 50px;
+                        font-size: 1.2vw;
+                        margin-inline: 40px;
+                        margin-block: 10px;
+                        position: relative;
+                        &::after{
+                            content: '✓';
+                            display: block;
+                            width: 50px;
+                            height: 50px;
+                            text-align: center;
+                            line-height: 50px;
+                            font-size: 1.5vw;
+                            background-color: #FE8802;
+                            color: #FFF;
+                            position: absolute;
+                            top: 0;left: -60px;
+                            transition: .3s;
+                            border-radius: 5px;
+                        }
+                        &:hover::after{
+                            background-color: #000;
+                            animation: chacked alternate linear 1s;
+                        }
+                    }
+                    /* ________ END OF SPAN _________ */
+                }
+                /* ________- END OF .CHECKED ___________ */
+            }
+            /* ________ ENN OF .ABOUT-US ____________ */
+        }
+        /* _________ END OF .REQUEST-FAIR ___________ */
+        >.ragistartion{
+            width: 30%;
+            /* height: 100%; */
+            >.name-email{
+                width: 100%;
+                height: 100%;
+                /* padding: 20px 30px; */
+                >.top{
+                    width: 100%;
+                    height: 12%;
+                    padding: 0px 30px;
+                    display: flex;
+                    margin-top: 30px;
+                    >.left{
+                        width: 45%;
+                        >label{
+                            width: 100%;
+                            color: rgba(255,255,255,.6);
+                            font-family: Exo;
+                        }
+                        >input{
+                            width: 100%;
+                            height: 40px;
+                            margin-top: 5px;
+                            border-radius: 5px;
+                            outline: none;
+                            border: none;
+                            text-transform: capitalize;
+                            padding-left: 20px;
+                            font-family: Exo;
+                        }
+                    }
+                    /* ______________ ENDOF .LEFT _________ */
+                    >.right{
+                        width: 45%;
+                        >label{
+                            width: 100%;
+                            margin-left: 20px;
+                            font-family: Exo;
+                            /* font-weight: 560; */
+                            color: rgba(255,255,255,.6);
+                        }
+                        >input{
+                            width: 100%;
+                            margin-left: 20px;
+                            height: 40px;
+                            margin-top: 5px;
+                            border-radius: 5px;
+                            outline: none;
+                            border: none;
+                            text-transform: capitalize;
+                            padding-left: 20px;
+                            font-family: Exo;
+                        }
+                    }
+                    /* ____________ END OF .RIGHT __________ */
+                }
+                /* _______________ END OF .TOP _________________ */
+                >.bottom{
+                    width: 100%;
+                    height: 90%;
+                    padding: 30px 30px;
+
+                    >label{
+                        width: 100%;
+                        font-family: Exo;
+                        color: rgba(255,255,255,.6);
+                    }
+                    >input{
+                        width: 100%;
+                        margin-block: 10px;
+                        height: 40px;
+                        border: none;
+                        outline: none;
+                        border-radius: 5px;
+                        padding-left: 10px;
+                        text-transform: capitalize;
+                        text-transform: capitalize;
+
+                    }
+                    >textarea{
+                        width: 100%;
+                        resize: both;
+                        border-radius: 5px;
+                        outline: none;
+                        padding-left: 10px;
+                        text-transform: capitalize;
+                        border: none;
+                        background-image: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+                        font-family:Exo ;
+                        height: 250px;
+                    }
+                    /* ___________ END OF .TEXTAREA _________ */
+                    >button{
+                        color: #FFF;
+                        background-color: #FE8802;
+                        font-weight: 560;
+                        text-transform: capitalize;
+                        padding: 15px 40px;
+                        border: none;
+                        outline: none;
+                        margin-left: 90px;
+                        margin-top: 20px;
+                        border-radius: 5px;
+                        font-size: 16px;
+                        cursor: pointer;
+                        transition: .4s;
+                        &:hover{
+                            background-color: #FFF;
+                            color: #FE8802;
+                        }
+                    }
+                    /* __________ END OF .BOTTOM _______-____ */
+                }
+                /* ________ END OF .BOTTOM __________ */
+            }
+            /* _________ ENN OF .NAME-EMAIL ____________ */
+        }
+        /* ________ END OF .RAGISTARTION __________ */
+    }
+    @keyframes chacked {
+        0%{transform: translateX(-5px);}
+        50%{transform: translateX(5px);}
+        75%{transform: translateX(-5px);}
+        100%{transform: translateX(0px);}
+    }
+    /* __________- END OF #FAIR-QOUTE ____________ */
 }
 @media screen and (min-width:1200px) {
     /* Desktop */

@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    &::selection{
+        background-color: #FE8802;
+        color: #FFF;
+    }
 }
 $First-text-color:#FFF;
 $scoundry-text-color:#5B5B5B;
@@ -31,6 +35,9 @@ $Six-background-color:#1c1c1c;
 .border-test4{
     border: 2px solid purple;
 }
+.border-test5{
+    border: 2px solid black;
+}
 
 li{
     list-style: none;
@@ -59,7 +66,7 @@ align-items: center;
 }
 
 
-h1,h2,h3,h4,h5,h6,p,span,button{
+h1,h2,h3,h4,h5,h6,p,span,button,a{
     font-family:Exo ;
 }
 
@@ -70,3 +77,5 @@ h1,h2,h3,h4,h5,h6,p,span,button{
 @import'company';
 @import'sends';
 @import'fair';
+@import'packaging';
+@import'customers';

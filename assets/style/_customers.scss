@@ -1,0 +1,54 @@
+#customers{
+    // @extend.border-test;
+    >.customers-testimonials{
+        // @extend.border-test2;
+        >.peoples-says{
+            // @extend.border-test4;
+            >.about-or-company{
+                >h3{
+                    text-transform: capitalize;
+                    color: $Fourth-text-color;
+                    >span{
+                        color: $Thirth-text-color;
+                        text-transform: capitalize
+                    }
+
+                }
+                >p{
+                    color: $Sevnth-text-color;
+                }
+            }
+            >p{
+                color: $Fifth-text-color;
+            }
+        }
+        >.businessman{
+            // @extend.border-test5;
+            >.message{
+                background-color: $Six-background-color;
+                border-radius: 5px;
+                >p{
+                    color: $Sixth-text-color;
+                    overflow-wrap: break-word;
+                    line-height: 2;
+                }
+            }
+            >.johan-carter{
+                // @extend.border-test2;
+                >figure{
+                    // border: 2px solid gray;
+                    >figcaption{
+                        >span{
+                            color: $Thirth-text-color;
+                            text-transform: capitalize;
+                        }
+                        >p{
+                            color: $Sevnth-text-color;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+#packaging-options{
+    background-image: url(../Img/par.jpg);
+    >.logistics-business{
+        // @extend.border-test;
+        >.our-options{
+            // @extend.border-test2;
+            >h3{
+                color: $First-text-color;
+                text-transform: capitalize;
+                font-weight: 600;
+                >span{
+                    color: $Thirth-text-color;
+                    text-transform: capitalize;
+                    font-weight: 600;
+                }
+            }
+            >p{
+                color: $Sevnth-text-color;
+                text-transform: capitalize;
+            }
+        }
+        >.special-pack{
+            // @extend.border-test3;
+            >section{
+                // @extend.border-test;
+                background-color: $First-background-color;
+                >.basic-freight{
+                    >p{
+                        color: $Sevnth-text-color;
+                        text-transform: capitalize;
+                    }
+                    >h4{
+                        color: $Thirth-text-color;
+                        >span{
+                            color: $Sevnth-text-color;;
+                        }
+                    }
+                }
+                >.truk{
+                    >span{
+                        border-bottom: 1px solid rgba(128, 128, 128, 0.569);
+                        color: $Fourth-text-color;
+                    }
+                }
+                >.start{
+                    background-color: $Fourth-background-color;
+                    >a{
+                        text-transform: uppercase;
+                        color: $First-text-color;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -15,6 +15,7 @@ $Fifth-text-color:#666666;
 $Sixth-text-color:#FFFFFF;
 $Sevnth-text-color:#AAAAAA; 
 $Eigth-text-color:#dadadacb;
+$Nine-text-color:#ffffffbf;
 // __________________________ END OF ALL TEXT COLOR __________________________//
 // ________________________ START OF BACKGROUND COLOR ________________________//
 $First-background-color:#FFF;
@@ -79,3 +80,5 @@ h1,h2,h3,h4,h5,h6,p,span,button,a{
 @import'fair';
 @import'packaging';
 @import'customers';
+@import'contact';
+@import'footer';

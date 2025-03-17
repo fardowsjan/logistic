@@ -335,4 +335,106 @@ main > .bg-img > .avoid-extra > p {
 #customers > .customers-testimonials > .businessman > .johan-carter > figure > figcaption > p {
   color: #AAAAAA;
   text-transform: capitalize;
+}
+
+#contact > .contact-us-today {
+  background-color: #fe8802;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 80px;
+}
+#contact > .contact-us-today > h3 {
+  color: #FFF;
+}
+#contact > .contact-us-today > p {
+  word-break: break-word;
+  color: #FFF;
+  text-align: center;
+  line-height: 2;
+  font-weight: 300;
+}
+#contact > .contact-us-today > a {
+  background-color: #FFF;
+  color: #FE8802;
+  transition-duration: 0.4s;
+  transition-delay: 0.2s;
+}
+#contact > .contact-us-today > a:hover {
+  background-color: #1c1c1c;
+  color: #FFF;
+}
+#contact > .checkout-our-packages {
+  background-image: url(../Img/sender.jpg);
+  background-size: cover;
+  background-color: #383838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 80px;
+}
+#contact > .checkout-our-packages > h3 {
+  color: #FFF;
+}
+#contact > .checkout-our-packages > p {
+  word-break: break-word;
+  color: #FFF;
+  text-align: center;
+  line-height: 2;
+  font-weight: 300;
+}
+#contact > .checkout-our-packages > a {
+  background-color: #fe8802;
+  color: #FFF;
+  transition-duration: 0.4s;
+  transition-delay: 0.2s;
+}
+#contact > .checkout-our-packages > a:hover {
+  background-color: #FFF;
+  color: #FE8802;
+}
+
+footer {
+  background-color: #212121;
+}
+footer > .footer_header > div > h4 {
+  text-transform: capitalize;
+  color: #FFF;
+  font-weight: bold;
+}
+footer > .footer_header > div > h4::after {
+  content: "";
+  display: block;
+  width: 70%;
+  border: 2px solid rgba(254, 136, 2, 0.1725490196);
+  margin-top: 10px;
+}
+footer > .footer_header > div > p {
+  color: rgba(255, 255, 255, 0.7490196078);
+  line-height: 2;
+  text-wrap: pretty;
+  text-transform: uppercase;
+}
+footer > .footer_header > div > span {
+  color: rgba(255, 255, 255, 0.7490196078);
+  text-transform: capitalize;
+  font-weight: 200;
+}
+footer > .footer_header > div > section {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+}
+footer > .footer_header > div > section > div {
+  margin-left: 10px;
+}
+footer > .footer_header > div > section > div > p {
+  color: #FFFFFF;
+}
+footer > .footer_header > div > section > div > span {
+  color: rgba(255, 255, 255, 0.7490196078);
+  margin-top: 10px;
+}
+footer > .footer_header > div > section > div > ul > li > a {
+  color: rgba(255, 255, 255, 0.7490196078);
 }/*# sourceMappingURL=Logistic.css.map */

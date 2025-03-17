@@ -1,0 +1,56 @@
+footer{
+    background-color: $Thirth-background-color;
+    >.footer_header{
+        // @extend.border-test;
+        >div{
+            // @extend.border-test3;
+            // justify-content: center;
+            >h4{
+                text-transform: capitalize;
+                color: $First-text-color;
+                font-weight: bold;
+                &::after{
+                    content: '';
+                    display: block;
+                    width: 70%;
+                    border: 2px solid #fe88022c;
+                    margin-top: 10px;
+                }
+            }
+            >p{
+                color:$Nine-text-color;
+                line-height: 2;
+                text-wrap: pretty;
+                text-transform: uppercase;
+            }
+            >span{
+                color: $Nine-text-color;
+                text-transform: capitalize;
+                font-weight: 200;
+            }
+            >section{
+                border-bottom: 1px solid rgba(128, 128, 128, 0.329) ;
+                >div{
+                    margin-left: 10px;
+                    >p{
+                        color: $Sixth-text-color;
+                    }
+                    >span{
+                        color: $Nine-text-color;
+                        margin-top: 10px;
+                    }
+                    >ul{
+                        >li{
+                            >a{
+                                color: $Nine-text-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    >.footer_end{
+        // @extend.border-test;
+    }
+}

@@ -1,6 +1,6 @@
 @media screen and (max-width:767px) {
     /* Phone */
-    /* ___________ START OF MAIN __________ */
+    /* ___________ START OF MAIN PHONE __________ */
     main{
         width: 100%;
         height: 120vh;
@@ -397,8 +397,8 @@
         }
         /* ________ END OF .BG-IMG ____________ */
     }
-    /* _________ END OF MAIN __________ */
-    /* __________- START OF .FAST-SECURE ___________ */
+    /* _________ END OF MAIN PHONE __________ */
+    /* __________- START OF .FAST-SECURE PHONE ___________ */
     .fast-secure{
         width: 100%;
         /* height: 35vh; */
@@ -442,8 +442,8 @@
             }
         }
     }
-    /* ___________ END OF .FAST-SECURE _____________ */
-    /* __________ START OF .Transportation Services _________- */
+    /* ___________ END OF .FAST-SECURE PHONE _____________ */
+    /* __________ START OF .Transportation Services PHONE _________- */
     #Transportation-Services{
         width: 100%;
         /* height: 65vh; */
@@ -491,8 +491,8 @@
             }
         }
     }
-    /* ___________ END OF .Transportation Services _____________ */
-    /* __________ START OF #OUR-COMAPNY ___________ */
+    /* ___________ END OF .Transportation Services PHONE _____________ */
+    /* __________ START OF #OUR-COMAPNY PHONE ___________ */
     #our-company{
         width: 100%;
         /* height: 100vh; */
@@ -552,8 +552,8 @@
             }
         }
     }
-    /* ____________ END OF #OUR-COMPANY ____________ */
-    /* ـ________ START OF #SENDS-TO-WORLD ___________ */
+    /* ____________ END OF #OUR-COMPANY PHONE ____________ */
+    /* ـ________ START OF #SENDS-TO-WORLD PHONE ___________ */
     #sends-to-world{
         width: 100%;
         /* height: 200px; */
@@ -613,8 +613,8 @@
         }
         /* ـ________ END OF .IMPORT-EXPORT ____________ */
     }
-    /* _____________ END OF #SENDS-TO-WORLD ____________ */
-    /* ___________ START OF #FAIR-QUOTE ____________- */
+    /* _____________ END OF #SENDS-TO-WORLD PHONE ____________ */
+    /* ___________ START OF #FAIR-QUOTE PHONE ____________- */
     #fair-quote{
         width: 100%;
         /* height: 100vh; */
@@ -836,8 +836,8 @@
         75%{transform: translateX(-5px);}
         100%{transform: translateX(0px);}
     }
-    /* ____________ END OF #FAIR-QUOTE _____________ */
-    /* _________ SART OF #PACKING-OPTIONS ______________ */
+    /* ____________ END OF #FAIR-QUOTE PHONE _____________ */
+    /* _________ SART OF #PACKING-OPTIONS PHONE ______________ */
     #packaging-options{
         width: 100%;
         /* height: 140vh; */
@@ -991,7 +991,7 @@
         }
         /* ________ END OF .LOGISTIC-BUSSINES _________- */
     }
-    /* ____________ END OF #PACKING-OPTIONS __________- */
+    /* ____________ END OF #PACKING-OPTIONS PHONE __________- */
         #customers{
         width: 100%;
         /* height: 100vh; */
@@ -1144,11 +1144,292 @@
         }
         /* _________ END OF .FASTRACK _______ */
     }
-    /* ____________ EDN OF #CUSTOMERS _________- */
+    /* ____________ EDN OF #CUSTOMERS PHONE _________- */
+    /* __________ START OF #CONTENT PHONE __________ */
+    #contact{
+        width: 100%;
+        /* height: 70vh; */
+        display: block;
+        >.contact-us-today{
+            width: 100% !important;
+            height: 50%;
+            padding: 10px 20px;
+            >h3{
+                font-size: 26px;
+                line-height: 1.4;
+                font-weight: 700;
+            }
+            /* ___________ END OF H3 -__________ */
+            >p{
+                font-size: 17px;
+                margin-top: 30px;
+            }
+            /* ____________- END OF P ____________ */
+            >a{
+                margin-top: 50px;
+                padding: 9px 15px;
+                border-radius: 5px;
+                font-weight: 600;
+                text-transform: capitalize;
+                font-size: 13px;
+                >i{
+                    margin-right: 10px;
+                    font-weight: 900;
+                }
+            }
+            /* ___________ END OF A ___________ */
+        }
+        /* _________ END OF .CONTACT-US-TODAY ___________ */
+        >.checkout-our-packages{
+            width: 100% !important;
+            height: 50%;
+            padding: 10px 20px;
+            >h3{
+                font-size: 26px;
+                line-height: 1.4;
+                font-weight: 700;
+            }
+            /* __________ END OF H3 -_________ */
+            >p{
+                font-size: 17px;
+                margin-top: 30px;
+            }
+            /* __________- ENN OF H3 ----_______ */
+            >a{
+                margin-top: 50px;
+                padding: 9px 15px;
+                border-radius: 5px;
+                font-weight: 600;
+                text-transform: capitalize;
+                font-size: 17px;
+                >i{
+                    margin-right: 10px;
+                    font-weight: 900;
+                }
+            }
+            /* ___________ END OF A __________/ */
+        }
+        /* ________ END OF .CHECKOUT-OUT-PACKAGES ___________ */
+    }
+    /* ___________ END OF #CONTENT PHONE _________- */
+    /* -_________ START OF FOOTER PHONE __________- */
+    footer{
+        width: 100%;
+        /* height: 0vh; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        >.footer_header{
+            width: 90% ;
+            height: 90%;
+            >div{
+                width: 100%;
+                height: 100%;
+                padding: 50px 20px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                >h4{
+                    font-size: 20px;
+                    &::after{
+                        content: '';
+                        display: block;
+                        width: 100%;
+                        border: 2px solid #fe88022c;
+                        margin-top: 10px;
+                    }
+                }
+                /* _________ END OF H4 _________ */
+                >p{
+                    font-size: 16px;
+                    margin-top: 40px;
+                    margin-bottom: 50px;
+                    text-align: center;
+                }
+                /* _________ END FO P _________ */
+                >span{
+                    margin-block: 10px;
+                }
+                /* ________ END OF SPAN _________ */
+                >section{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    padding-bottom: 15px;
+                    margin-block: 30px;
+                    >img{
+                        width: 90px;
+                        height: 80px;
+                        object-fit: cover;
+                        border-radius: 5px;
+                        position: relative;
+                    }
+                    >div{
+                        text-align: center;
+                        >p{
+                            margin-top: 10px;
+                        }
+                    }
+                }
+                /* ________ END OF SECTION _________ */
+                >a{
+                    display: block;
+                    width: 100%;
+                }
+                /* _________ END FO A ________ */
+                >ul{
+                    width: 100%;
+                    margin-top: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    >li{
+                        padding-block: 7px;
+                        transition: .1s;
+                        >a{
+                            color:#ffffffbf;
+                            font-size: 18px;
+                            transition: .4s ease-in-out;
+                            >i{
+                                padding: 1px 3px;
+                                margin-right: 9px;
+                                color:#ffffff60 ;
+                                border-radius: 5px;
+                                transition: .1s;
+                            }
+                        }
+                        &:hover{
+                            transform: translateX(7px);
+                        }
+                        &:hover>a{
+                            color: #FE8802;
+                        }
+                        &:hover>a>i{
+                            background-color: #FE8802;
+                            color: #FFF;
+                        }
+                    }
+                    /* ________ END OF LI ___________ */
+                }
+                /* _________- END OF UL -__________ */
+                &:nth-of-type(4){
+                    padding: 50px 0px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    >article{
+                        width: 70%;
+                        display: flex;
+                        margin-top: 30px;
+                        >a{
+                            display: inline-block;
+                            text-align: center;
+                            width: 50px;
+                            height: 50px;
+                            line-height: 50px;
+                            background-color: #fe880212;
+                            border-radius: 10px;
+                            margin-right: 10px;
+                            transition: .4s;
+                            >i{
+                                /* font-size: 25px; */
+                                color: #FE8802;
+                                transition: .4s;
+                            }
+                        }
+                        >div{
+                            margin-left: 10px;
+                            >p{
+                                color: #ffffff60;
+                                text-transform: capitalize;
+                                font-weight: 300;
+                                transition: .8s;
+                            }
+                            >h5{
+                                color: #FFF;
+                                text-transform: capitalize;
+                                font-size: 17px;
+                                margin-top: 5px;
+                                font-weight: 100;
+                            }
+                        }
+                        &:hover>a{
+                            background-color: #FE8802;
+                        }
+                        &:hover>a>i{
+                            color: #FFF;
+                        }
+                        &:hover>div>p{
+                            color: #FE8802;
+                        }
+                    }
+                }
+                /* _______ END OF DIV 4 __________- */
+            }
+            /* ___________ END OF DIV ___________ */
+        }
+        /* ___________ END OF .FOOTER_HEADER ____________ */
+        >.footer_end{
+            width: 90%;
+            height: 10%;
+            /* display: flex; */
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 10px;
+            >div{
+                width: 100%;
+                >h6{
+                    width: 100%;
+                    color: #FFF;
+                    font-size: 13px;
+                    margin-left: 10px;
+                    >a{
+                        text-transform: capitalize;
+                        color: #FE8802;
+                    }
+                }
+                /* ________ END OF H6 -_________ */
+                >span{
+                    display: none;
+                    width: 150px;
+                    height: 40px;
+                    margin-inline: 4px;;
+                    text-align: center;
+                    line-height: 40px;
+                    >p{
+                        transition: .4s;
+                        color: #ffffff60;
+                        text-transform: capitalize;
+                    }
+                    /* __________- END OF SAPN ___________ */
+                    &:nth-of-type(1){
+                        border-right: 1px solid gray;
+                    }
+                    &:hover>p{
+                        color: #FE8802;
+                    }
+                }
+                /* _________ END OF SPAN ____________ */
+            }
+            /* ________- END OF DIV __________- */
+        }
+        /* ________ END OF .FOOTER_END _________ */
+    }
+    /* _________ END OF FOOTER PHONE ____________ */
 }
+
+/* _____________________________ END _____________ OF __________________-PHONE RESPONSIVE ___________ */
+
+
 @media screen and (min-width:768px) {
     /* Tapleat */
-    /* ___________ START OF MAIN __________ */
+    /* ___________ START OF MAIN MD __________ */
     main{
         width: 100%;
         height: 120vh;
@@ -1390,8 +1671,8 @@
         }
         /* ________ END OF .BG-IMG ____________ */
     }
-    /* _________ END OF MAIN __________ */
-    /* __________- START OF .FAST-SECURE ___________ */
+    /* _________ END OF MAIN MD __________ */
+    /* __________- START OF .FAST-SECURE MD ___________ */
     .fast-secure{
         width: 100%;
         /* height: 35vh; */
@@ -1435,8 +1716,8 @@
             }
         }
     }
-    /* ___________ END OF .FAST-SECURE _____________ */
-    /* __________ START OF .Transportation Services _________ */
+    /* ___________ END OF .FAST-SECURE MD _____________ */
+    /* __________ START OF .Transportation Services MD _________ */
     #Transportation-Services{
         width: 100%;
         /* height: 65vh; */
@@ -1483,8 +1764,8 @@
             }
         }
     }
-    /* -__________ END OF .Transportation Services __________- */
-    /* ــ_______ START OF #OUR-COMPANY ________ */
+    /* -__________ END OF .Transportation Services MD __________- */
+    /* ــ_______ START OF #OUR-COMPANY MD ________ */
     #our-company{
         width: 100%;
         /* height: 100vh; */
@@ -1544,8 +1825,8 @@
             }
         }
     }
-    /* -______________ END OF #OUR-COMPANY ___________ */
-    /* _____________ START OF #SENDS-TO-WORLD ___________ */
+    /* -______________ END OF #OUR-COMPANY MD ___________ */
+    /* _____________ START OF #SENDS-TO-WORLD MD ___________ */
     #sends-to-world{
         width: 100%;
         /* height: 200px; */
@@ -1606,7 +1887,7 @@
         }
         /* ـ________ END OF .IMPORT-EXPORT ____________ */
     }
-    /* _________ START OF #FAIR-QUOTE ___________ */
+    /* _________ START OF #FAIR-QUOTE MD ___________ */
     #fair-quote{
         width: 100%;
         height: 100vh;
@@ -1821,15 +2102,15 @@
         }
         /* ________ END OF .RAGISTARTION __________ */
     }
-    /* ___________ END OF #SENDS-TO-WORLD ____________ */
+    /* ___________ END OF #SENDS-TO-WORLD MD ____________ */
     @keyframes chacked {
         0%{transform: translateX(-5px);}
         50%{transform: translateX(5px);}
         75%{transform: translateX(-5px);}
         100%{transform: translateX(0px);}
     }
-    /* _________ END OF #FAIR-QUOTE _____________ */
-    /* __________ START OF #PACKAGING-OPTIONS ___________- */
+    /* _________ END OF #FAIR-QUOTE MD _____________ */
+    /* __________ START OF #PACKAGING-OPTIONS MD ___________- */
     #packaging-options{
         width: 100%;
         height: 140vh;
@@ -1982,8 +2263,8 @@
         }
         /* ________ END OF .LOGISTIC-BUSSINES _________- */
     }
-    /* ___________- END OF #PACKAGING-OPTIONS __________ */
-    /* __________ START OF #CUSTOMERS _________ */
+    /* ___________- END OF #PACKAGING-OPTIONS MD __________ */
+    /* __________ START OF #CUSTOMERS MD _________ */
     #customers{
         width: 100%;
         /* height: 100vh; */
@@ -2139,11 +2420,270 @@
         }
         /* _________ END OF .FASTRACK _______ */
     }
-    /* _________ END OF #CUSTOMERS __________ */
+    /* _________ END OF #CUSTOMERS MD __________ */
+    /* _________ START OF #CONTACT MD ____________ */
+    #contact{
+        width: 100%;
+        /* height: 70vh; */
+        display: block;
+        >.contact-us-today{
+            width: 100% !important;
+            height: 50%;
+            padding:30px 200px;
+            >h3{
+                font-size: 36px;
+                line-height: 1.4;
+                font-weight: 700;
+            }
+            /* ___________ END OF H3 -__________ */
+            >p{
+                font-size: 17px;
+                margin-top: 30px;
+            }
+            /* ____________- END OF P ____________ */
+            >a{
+                margin-top: 50px;
+                padding: 17px 30px;
+                border-radius: 5px;
+                font-weight: 600;
+                text-transform: capitalize;
+                font-size: 17px;
+                >i{
+                    margin-right: 10px;
+                    font-weight: 900;
+                }
+            }
+            /* ___________ END OF A ___________ */
+        }
+        /* _________ END OF .CONTACT-US-TODAY ___________ */
+        >.checkout-our-packages{
+            width: 100% !important;
+            height: 50%;
+            padding: 30px 200px;
+            >h3{
+                font-size: 36px;
+                line-height: 1.4;
+                font-weight: 700;
+            }
+            /* __________ END OF H3 -_________ */
+            >p{
+                font-size: 17px;
+                margin-top: 30px;
+            }
+            /* __________- ENN OF H3 ----_______ */
+            >a{
+                margin-top: 50px;
+                padding: 17px 30px;
+                border-radius: 5px;
+                font-weight: 600;
+                text-transform: capitalize;
+                font-size: 17px;
+                >i{
+                    margin-right: 10px;
+                    font-weight: 900;
+                }
+            }
+            /* ___________ END OF A __________/ */
+        }
+        /* ________ END OF .CHECKOUT-OUT-PACKAGES ___________ */
+    }
+    /* ____________ END OF #CONTACT MD ____________ */
+    /* _________ SRART OF FOOTER MD __________ */
+    footer{
+        width: 100%;
+        /* height: 0vh; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        >.footer_header{
+            width: 90%;
+            height: 90%;
+            display: flex;
+            >div{
+                width: 25%;
+                height: 100%;
+                padding: 50px 20px;
+                >h4{
+                    font-size: 15px;
+                }
+                /* _________ END OF H4 _________ */
+                >p{
+                    font-size: 12px;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                }
+                /* _________ END FO P _________ */
+                >span{
+                    margin-block: 10px;
+                    font-size: 12PX;
+                }
+                /* ________ END OF SPAN _________ */
+                >section{
+                    width: 100%;
+                    display: flex;
+                    padding-bottom: 15px;
+                    margin-block: 30px;
+                    >img{
+                        width: 50px;
+                        height: 50px;
+                        object-fit: cover;
+                        border-radius: 5px;
+                        position: relative;
+                    }
+                    >div{
+                        >p{
+                            font-size: 13px;
+                        }
+                        >span{
+                            font-size: 12px;
+                        }
+                    }
+                }
+                /* ________ END OF SECTION _________ */
+                >a{
+                    display: block;
+                    width: 100%;
+                }
+                /* _________ END FO A ________ */
+                >ul{
+                    width: 100%;
+                    margin-top: 40px;
+                    >li{
+                        padding-block: 7px;
+                        transition: .1s;
+                        >a{
+                            color:#ffffffbf;
+                            font-size: 12px;
+                            transition: .4s ease-in-out;
+                            >i{
+                                padding: 1px 3px;
+                                margin-right: 9px;
+                                color:#ffffff60 ;
+                                border-radius: 5px;
+                                transition: .1s;
+                            }
+                        }
+                        &:hover{
+                            transform: translateX(7px);
+                        }
+                        &:hover>a{
+                            color: #FE8802;
+                        }
+                        &:hover>a>i{
+                            background-color: #FE8802;
+                            color: #FFF;
+                        }
+                    }
+                    /* ________ END OF LI ___________ */
+                }
+                /* _________- END OF UL -__________ */
+                &:nth-of-type(4){
+                    padding: 50px 0px;
+                    >article{
+                        width: 100%;
+                        display: flex;
+                        margin-top: 30px;
+                        >a{
+                            display: inline-block;
+                            text-align: center;
+                            width: 30px;
+                            height: 30px;
+                            line-height: 30px;
+                            background-color: #fe880212;
+                            border-radius: 10px;
+                            margin-right: 5px;
+                            transition: .4s;
+                            >i{
+                                /* font-size: 25px; */
+                                color: #FE8802;
+                                transition: .4s;
+                            }
+                        }
+                        >div{
+                            margin-left: 10px;
+                            >p{
+                                color: #ffffff60;
+                                text-transform: capitalize;
+                                font-weight: 300;
+                                transition: .8s;
+                                font-size: 12px;
+                            }
+                            >h5{
+                                color: #FFF;
+                                text-transform: capitalize;
+                                font-size: 10px;
+                                margin-top: 5px;
+                                font-weight: 100;
+                            }
+                        }
+                        &:hover>a{
+                            background-color: #FE8802;
+                        }
+                        &:hover>a>i{
+                            color: #FFF;
+                        }
+                        &:hover>div>p{
+                            color: #FE8802;
+                        }
+                    }
+                }
+                /* _______ END OF DIV 4 __________- */
+            }
+            /* ___________ END OF DIV ___________ */
+        }
+        /* ___________ END OF .FOOTER_HEADER ____________ */
+        >.footer_end{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            >div{
+                >h6{
+                    color: #FFF;
+                    font-size: 16px;
+                    margin-left: 10px;
+                    >a{
+                        text-transform: capitalize;
+                        color: #FE8802;
+                    }
+                }
+                /* ________ END OF H6 -_________ */
+                >span{
+                    width: 150px;
+                    height: 40px;
+                    margin-inline: 4px;;
+                    text-align: center;
+                    line-height: 40px;
+                    >p{
+                        transition: .4s;
+                        color: #ffffff60;
+                        text-transform: capitalize;
+                    }
+                    /* __________- END OF SAPN ___________ */
+                    &:nth-of-type(1){
+                        border-right: 1px solid gray;
+                    }
+                    &:hover>p{
+                        color: #FE8802;
+                    }
+                }
+                /* _________ END OF SPAN ____________ */
+            }
+            /* ________- END OF DIV __________- */
+        }
+        /* ________ END OF .FOOTER_END _________ */
+    }
+    /* ___________ END OF FOOTER MD __________ */
 }
+
+/* _____________________________ END _____________ OF __________________-TAPLET RESPONSIVE ___________ */
+
+
 @media screen and (min-width:992px) {
     /* Laptop */
-    /* ___________ START OF MAIN __________ */
+    /* ___________ START OF MAIN XL __________ */
     main{
         width: 100%;
         height: 120vh;
@@ -2246,7 +2786,7 @@
                                 opacity: 0;
                                 transition: .4s;
                                 border-radius: 7px;
-                                margin-top: 10px;
+                                margin-top: 24px;
                                 >li{
                                     padding-inline: 10px;
                                     line-height: 1;
@@ -2385,8 +2925,8 @@
         }
         /* ________ END OF .BG-IMG ____________ */
     }
-    /* _________ END OF MAIN __________ */
-    /* __________- START OF .FAST-SECURE ___________ */
+    /* _________ END OF MAIN XL __________ */
+    /* __________- START OF .FAST-SECURE XL ___________ */
     .fast-secure{
         width: 100%;
         height: 35vh;
@@ -2432,8 +2972,8 @@
             }
         }
     }
-    /* ___________ END OF .FAST-SECURE _____________ */
-    /* ـ____________ START OF .Transportation Services ____________ */
+    /* ___________ END OF .FAST-SECURE XL _____________ */
+    /* ـ____________ START OF .Transportation Services XL ____________ */
     #Transportation-Services{
         width: 100%;
         height: 70vh;
@@ -2480,8 +3020,8 @@
             }
         }
     }
-    /* ____________ END OF .Transportation Services ____________ */
-    /* ________ SART OF #OUR-COMPANY ____________ */
+    /* ____________ END OF .Transportation Services XL ____________ */
+    /* ________ SART OF #OUR-COMPANY XL ____________ */
     #our-company{
         width: 100%;
         /* height: 100vh; */
@@ -2498,6 +3038,7 @@
                 width: 400px;
                 transform-style: preserve-3d;
                 transition: .4s;
+                padding-inline: 10px;
                 >img{
                     width: 100%;
                 }
@@ -2539,8 +3080,8 @@
             }
         }
     }
-    /* _________ END OF #OUR-COMPANY ____________ */
-    /* ___________ START OF #SENDS-TO-WORLD _____________ */
+    /* _________ END OF #OUR-COMPANY XL ____________ */
+    /* ___________ START OF #SENDS-TO-WORLD XL _____________ */
     #sends-to-world{
         width: 100%;
         /* height: 200px; */
@@ -2597,8 +3138,8 @@
         }
         /* ـ________ END OF .IMPORT-EXPORT ____________ */
     }
-    /* ___________ END OF #SENDS-TO-WORLD _____________ */
-    /* _________- START OF #FAIR-QOUTE ____________ */
+    /* ___________ END OF #SENDS-TO-WORLD XL _____________ */
+    /* _________- START OF #FAIR-QOUTE XL ____________ */
     #fair-quote{
         width: 100%;
         height: 100vh;
@@ -2815,8 +3356,8 @@
         75%{transform: translateX(-5px);}
         100%{transform: translateX(0px);}
     }
-    /* __________- END OF #FAIR-QOUTE ____________ */
-    /* __________ START OF #PACKAGING-OPTIONS _____________ */
+    /* __________- END OF #FAIR-QOUTE XL ____________ */
+    /* __________ START OF #PACKAGING-OPTIONS XL _____________ */
     #packaging-options{
         width: 100%;
         height: 140vh;
@@ -2968,12 +3509,12 @@
         }
         /* ________ END OF .LOGISTIC-BUSSINES _________- */
     }
-    /* _________________ END OF #PACKGING-OPTIONS ___________ */
-    /* _____________ START OF #CUSTOMERS ___________ */
+    /* _________________ END OF #PACKGING-OPTIONS XL ___________ */
+    /* _____________ START OF #CUSTOMERS XL ___________ */
     #customers{
         width: 100%;
         /* height: 100vh; */
-        display: flex;
+        display: flex !important;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -2983,7 +3524,7 @@
             display: flex;
             padding-top: 100px;
             >.peoples-says{
-                width: 50%;
+                width: 50% !important;
                 height: 100%;
                 padding: 30px 20px;
                 >.about-or-company{
@@ -3023,7 +3564,7 @@
             }
             /* _________ END FO .PEOPLE-SAYS _________ */
             >.businessman{
-                width: 50%;
+                width: 50% !important;
                 height: 100%;
                 display: flex;
                 /* justify-content: center; */
@@ -3123,8 +3664,259 @@
         }
         /* _________ END OF .FASTRACK _______ */
     }
-    /* ____________ END OF #CUSTOMERS ___________ */
+    /* ____________ END OF #CUSTOMERS XL ___________ */
+    /* _____________ START OF #CONTACT XL ____________ */
+    #contact{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        >.contact-us-today{
+            width: 50%;
+            height: 100%;
+            padding: 20px 100px;
+            >h3{
+                font-size: 36px !important;
+                line-height: 1.4;
+                font-weight: 700;
+            }
+            /* ___________ END OF H3 -__________ */
+            >p{
+                font-size: 17px;
+                margin-top: 30px;
+            }
+            /* ____________- END OF P ____________ */
+            >a{
+                margin-top: 50px;
+                padding: 17px 30px;
+                border-radius: 5px;
+                font-weight: 600;
+                text-transform: capitalize;
+                font-size: 17px;
+                >i{
+                    margin-right: 10px;
+                    font-weight: 900;
+                }
+            }
+            /* ___________ END OF A ___________ */
+        }
+        /* _________ END OF .CONTACT-US-TODAY ___________ */
+        >.checkout-our-packages{
+            width: 50%;
+            height: 100%;
+            padding: 10px 100px;
+            >h3{
+                font-size: 36px !important;
+                line-height: 1.4;
+                font-weight: 700;
+            }
+            /* __________ END OF H3 -_________ */
+            >p{
+                font-size: 17px;
+                margin-top: 30px;
+            }
+            /* __________- ENN OF H3 ----_______ */
+            >a{
+                margin-top: 50px;
+                padding: 17px 30px;
+                border-radius: 5px;
+                font-weight: 600;
+                text-transform: capitalize;
+                font-size: 17px;
+                >i{
+                    margin-right: 10px;
+                    font-weight: 900;
+                }
+            }
+            /* ___________ END OF A __________/ */
+        }
+        /* ________ END OF .CHECKOUT-OUT-PACKAGES ___________ */
+    }
+    /* ___________ END OF #CONTACT XL ___________ */
+    /* __________ START OF FOOTER XL -__________ */
+    footer{
+        width: 100%;
+        /* height: 0vh; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        >.footer_header{
+            width: 90%;
+            height: 90%;
+            display: flex;
+            >div{
+                width: 25%;
+                height: 100%;
+                padding: 50px 20px;
+                >h4{
+                    font-size: 20px;
+                }
+                /* _________ END OF H4 _________ */
+                >p{
+                    font-size: 16px;
+                    margin-top: 40px;
+                    margin-bottom: 50px;
+                }
+                /* _________ END FO P _________ */
+                >span{
+                    margin-block: 10px;
+                }
+                /* ________ END OF SPAN _________ */
+                >section{
+                    width: 100%;
+                    display: flex;
+                    padding-bottom: 15px;
+                    margin-block: 30px;
+                    >img{
+                        width: 90px;
+                        height: 80px;
+                        object-fit: cover;
+                        border-radius: 5px;
+                        position: relative;
+                    }
+                }
+                /* ________ END OF SECTION _________ */
+                >a{
+                    display: block;
+                    width: 100%;
+                }
+                /* _________ END FO A ________ */
+                >ul{
+                    width: 100%;
+                    margin-top: 40px;
+                    >li{
+                        padding-block: 7px;
+                        transition: .1s;
+                        >a{
+                            color:#ffffffbf;
+                            font-size: 18px;
+                            transition: .4s ease-in-out;
+                            >i{
+                                padding: 1px 3px;
+                                margin-right: 9px;
+                                color:#ffffff60 ;
+                                border-radius: 5px;
+                                transition: .1s;
+                            }
+                        }
+                        &:hover{
+                            transform: translateX(7px);
+                        }
+                        &:hover>a{
+                            color: #FE8802;
+                        }
+                        &:hover>a>i{
+                            background-color: #FE8802;
+                            color: #FFF;
+                        }
+                    }
+                    /* ________ END OF LI ___________ */
+                }
+                /* _________- END OF UL -__________ */
+                &:nth-of-type(4){
+                    padding: 50px 0px;
+                    >article{
+                        width: 100%;
+                        display: flex;
+                        margin-top: 30px;
+                        >a{
+                            display: inline-block;
+                            text-align: center;
+                            width: 50px;
+                            height: 50px;
+                            line-height: 50px;
+                            background-color: #fe880212;
+                            border-radius: 10px;
+                            margin-right: 10px;
+                            transition: .4s;
+                            >i{
+                                /* font-size: 25px; */
+                                color: #FE8802;
+                                transition: .4s;
+                            }
+                        }
+                        >div{
+                            margin-left: 10px;
+                            >p{
+                                color: #ffffff60;
+                                text-transform: capitalize;
+                                font-weight: 300;
+                                transition: .8s;
+                                font-size: 17px;
+                            }
+                            >h5{
+                                color: #FFF;
+                                text-transform: capitalize;
+                                font-size: 15px;
+                                margin-top: 5px;
+                                font-weight: 100;
+                            }
+                        }
+                        &:hover>a{
+                            background-color: #FE8802;
+                        }
+                        &:hover>a>i{
+                            color: #FFF;
+                        }
+                        &:hover>div>p{
+                            color: #FE8802;
+                        }
+                    }
+                }
+                /* _______ END OF DIV 4 __________- */
+            }
+            /* ___________ END OF DIV ___________ */
+        }
+        /* ___________ END OF .FOOTER_HEADER ____________ */
+        >.footer_end{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            >div{
+                >h6{
+                    color: #FFF;
+                    font-size: 16px;
+                    margin-left: 10px;
+                    >a{
+                        text-transform: capitalize;
+                        color: #FE8802;
+                    }
+                }
+                /* ________ END OF H6 -_________ */
+                >span{
+                    width: 150px;
+                    height: 40px;
+                    margin-inline: 4px;;
+                    text-align: center;
+                    line-height: 40px;
+                    >p{
+                        transition: .4s;
+                        color: #ffffff60;
+                        text-transform: capitalize;
+                    }
+                    /* __________- END OF SAPN ___________ */
+                    &:nth-of-type(1){
+                        border-right: 1px solid gray;
+                    }
+                    &:hover>p{
+                        color: #FE8802;
+                    }
+                }
+                /* _________ END OF SPAN ____________ */
+            }
+            /* ________- END OF DIV __________- */
+        }
+        /* ________ END OF .FOOTER_END _________ */
+    }
+    /* -____________ END OF FOOTER XL ____________ */
 }
-@media screen and (min-width:1200px) {
+
+/* _____________________________ END _____________ OF __________________-LAPTOP RESPONSIVE ___________ */
+
+
+@media screen and (min-width:1200px){
     /* Desktop */
 }
+/* _____________________________ END _____________ OF __________________-DESKTOP RESPONSIVE ___________ */
